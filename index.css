@@ -5,13 +5,13 @@
 header {
     background-color: black;
     color: white;
-    padding-top: 1px;
+    padding-top: 1%;
 }
 
 header h1 {
     position: relative;
     height: 16px;
-    font-size: 40px;
+    font-size: 240%;
 }
 
 nav {
@@ -24,7 +24,7 @@ nav {
 nav a {
     padding: 10px 5px;
     float: right;
-    font-size: 20px;
+    font-size: 120%;
 }
 
 nav a:hover {
@@ -39,30 +39,92 @@ footer p {
 
 .container {
     display: grid;
+    height:200px;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    border: 2px solid black;
-    height: 150px;
-    align-items: center;
-    background-color: rgba(100%, 100%, 0%, 0.25);
-
+    height: 200px;
+    grid-gap: 5%;
+}
+.item {
+    color: black;
+    border-radius: 5px;
+    border: 2px black solid;
+    padding-top: 20%;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.2);
 }
 
+.item:hover {
+    background-color: yellow;
+}
 #shrug {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 30%;
 }
 #me {
-    display: block;
     float: right;
-    margin-left: 700px;
-    margin-right: 20px;
     width: 25%;
-    position: fixed;
+
 }
 
+.indexbody {
+    float: left;
+    width: 70%;
+    display: inline-block;
+}
 .contact p{
-    padding-left: 35px;
+    padding-left: 5%;
+}
+
+.about {
+    float: left;
+}
+
+
+.form {
+    float: left;
+}
+.grid {
+    z-index: 5;
+    display: grid;
+    grid-gap: 2%;
+    grid-template: repeat(5, 100px);
+    float: right; 
+    width: 30%;
+    height: 80%; 
+}
+
+.box {
+    color:black;
+    border-radius: 3px;
+}
+
+.a > img {
+    height: 100%;
+    width: 100%;
+}
+
+.b > img {
+    height: 100%;
+    width: 100%;
+} 
+
+.c > img {
+    height: 100%;
+    width: 100%;
+}
+.d > img {
+    height: 100%;
+    width: 50%;
+    padding-left: 25%
+}
+
+p a:hover {
+        color: red;
+    }
+
+.about a:hover {
+    color:red;
+    }
 }
