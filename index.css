@@ -9,13 +9,11 @@ header {
 }
 
 header h1 {
-    position: relative;
     height: 16px;
     font-size: 240%;
 }
 
 nav {
-    position: relative;
     background-color: yellow;
     color: black;
     height: 30px;
@@ -56,6 +54,7 @@ footer p {
 .item:hover {
     background-color: yellow;
 }
+
 #shrug {
     display: block;
     margin-left: auto;
@@ -65,13 +64,11 @@ footer p {
 #me {
     float: right;
     width: 25%;
-
 }
 
 .indexbody {
     float: left;
     width: 70%;
-    display: inline-block;
 }
 .contact p{
     padding-left: 5%;
@@ -81,15 +78,13 @@ footer p {
     float: left;
 }
 
-
 .form {
     float: left;
 }
 .grid {
-    z-index: 5;
     display: grid;
     grid-gap: 2%;
-    grid-template: repeat(5, 100px);
+    grid-template: repeat(4, 100px);
     float: right; 
     width: 30%;
     height: 80%; 
@@ -117,14 +112,10 @@ footer p {
 .d > img {
     height: 100%;
     width: 50%;
-    padding-left: 25%
+    margin-left: auto;
+    margin-right:auto;
 }
 
-p a:hover {
+a:hover {
         color: red;
     }
-
-.about a:hover {
-    color:red;
-    }
-}
