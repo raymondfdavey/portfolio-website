@@ -29,6 +29,10 @@ nav a:hover {
   background-color: red;
   color: white;
 }
+nav a.active {
+  background-color: red;
+  color: white;
+}
 
 footer p {
   text-align: right;
@@ -114,13 +118,4 @@ footer p {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-}
-
-a:hover {
-  color: red;
-}
-
-nav a.active {
-  background-color: red;
-  color: white;
 }
