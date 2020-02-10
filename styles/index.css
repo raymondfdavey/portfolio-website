@@ -120,7 +120,7 @@ a:hover {
   color: red;
 }
 
-a.active {
+nav a.active {
   background-color: red;
   color: white;
 }
