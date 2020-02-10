@@ -1,121 +1,126 @@
-* { 
-   font-family: Helvetica;
+* {
+  font-family: Helvetica;
 }
 
 header {
-    background-color: black;
-    color: white;
-    padding-top: 1%;
+  background-color: black;
+  color: white;
+  padding-top: 1%;
 }
 
 header h1 {
-    height: 16px;
-    font-size: 240%;
+  height: 16px;
+  font-size: 240%;
 }
 
 nav {
-    background-color: yellow;
-    color: black;
-    height: 30px;
+  background-color: yellow;
+  color: black;
+  height: 30px;
 }
 
 nav a {
-    padding: 10px 5px;
-    float: right;
-    font-size: 120%;
+  padding: 10px 5px;
+  float: right;
+  font-size: 120%;
 }
 
 nav a:hover {
-    background-color: red;
-    color: white;
+  background-color: red;
+  color: white;
 }
 
 footer p {
-    text-align: right;
-    font-size: 14px;
+  text-align: right;
+  font-size: 14px;
 }
 
 .container {
-    display: grid;
-    height:200px;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: 200px;
-    grid-gap: 5%;
+  display: grid;
+  height: 200px;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 200px;
+  grid-gap: 5%;
 }
 .item {
-    color: black;
-    border-radius: 5px;
-    border: 2px black solid;
-    padding-top: 20%;
-    text-align: center;
-    background-color: rgba(255, 255, 0, 0.2);
+  color: black;
+  border-radius: 5px;
+  border: 2px black solid;
+  padding-top: 20%;
+  text-align: center;
+  background-color: rgba(255, 255, 0, 0.2);
 }
 
 .item:hover {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 #shrug {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 #me {
-    float: right;
-    width: 25%;
+  float: right;
+  width: 25%;
 }
 
 .indexbody {
-    float: left;
-    width: 70%;
+  float: left;
+  width: 70%;
 }
-.contact p{
-    padding-left: 5%;
+.contact p {
+  padding-left: 5%;
 }
 
 .about {
-    float: left;
+  float: left;
 }
 
 .form {
-    float: left;
+  float: left;
 }
 .grid {
-    display: grid;
-    grid-gap: 2%;
-    grid-template: repeat(4, 100px);
-    float: right; 
-    width: 30%;
-    height: 80%; 
+  display: grid;
+  grid-gap: 2%;
+  grid-template: repeat(4, 100px);
+  float: right;
+  width: 30%;
+  height: 80%;
 }
 
 .box {
-    color:black;
-    border-radius: 3px;
+  color: black;
+  border-radius: 3px;
 }
 
 .a > img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .b > img {
-    height: 100%;
-    width: 100%;
-} 
+  height: 100%;
+  width: 100%;
+}
 
 .c > img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 .d > img {
-    height: 100%;
-    width: 50%;
-    margin-left: auto;
-    margin-right:auto;
+  height: 100%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a:hover {
-        color: red;
-    }
+  color: red;
+}
+
+a.active {
+  background-color: red;
+  color: white;
+}
